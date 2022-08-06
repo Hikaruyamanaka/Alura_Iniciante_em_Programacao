@@ -8,7 +8,7 @@
 
 <p>:student: Deixo desde já, meus agradecimentos pelo curso e a oportunidade de estudar e me desenvolver cada vez mais. :pray:</p> 
 
-<p>:shinto_shrine: No curso, aprendi sobre os conceitos básicos de lógica como variáveis, operadores matemáticos, algumas funções de Javascript para conversar com o documento HTML, aprendi sobre as estrutas condicionais e os laços de repetição, neste repositório você encontrará diversos exercícios resolvidos. :computer:</p>
+<p>:shinto_shrine: No curso utilizamos a linguagem Javascript, onde aprendi sobre os conceitos básicos de lógica com variáveis, operadores matemáticos, algumas funções do Javascript para conversar com o documento HTML, aprendi sobre as estruturas condicionais e os laços de repetição, neste repositório você encontrará diversos exercícios prtaticados e resolvidos. :computer:</p>
 
 <p>Estou indo para a segunda o segundo curso de lógica, que foram divididas em duas partes. E, em breve, estarei postando os outros exercícios que eu vier a resolver. :rocket:</p>
 
