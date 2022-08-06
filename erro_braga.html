@@ -1,0 +1,54 @@
+<meta charset="UTF-8">
+
+<script>
+
+    // Problemas no programa do Braga: 
+
+    // function pulaLinha() {
+    //     document.write("<br>");
+    // }
+
+    // function mostra(frase) {
+    //     document.write(frase);
+    //     pulaLinha();
+    // }
+
+    // var quantidadeCarbono1 = parseInt(prompt("Quantidade de carbono substância 1"));
+    // var quantidadeCarbono2 = parseInt(prompt("Quantidade de carbono substância 2"));
+
+    // quantidadeCarbono2 = quantidadeCarbono2 + 2;
+
+    // if(quantidadeCarbono1 = quantidadeCarbono2 ) {
+
+    //     mostra("Acho que são substâncias parecidas");
+    // } else {
+
+    //     mostra("São substâncias bem diferentes");
+    // }
+
+
+    // Corrigindo o problema: O braga esqueceu de colocar mais um '=' no if para comparar se era igual
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var quantidadeCarbono1 = parseInt(prompt("Quantidade de carbono substância 1"));
+    var quantidadeCarbono2 = parseInt(prompt("Quantidade de carbono substância 2"));
+
+    quantidadeCarbono2 = quantidadeCarbono2 + 2;
+
+    if(quantidadeCarbono1 == quantidadeCarbono2 ) {
+
+        mostra("Acho que são substâncias parecidas");
+    } else {
+
+        mostra("São substâncias bem diferentes");
+    }
+
+
+</script>

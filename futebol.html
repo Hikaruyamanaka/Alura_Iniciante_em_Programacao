@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+
+<script>
+	function pulaLinha() {
+
+		document.write('<br><br>');
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+
+	// parseInt() : a função converte o texto em número, mas não converte palavras ou letra alfabéticas em númeor porque não tem como. Então só números que são do tipo 'string'
+	var vitorias = parseInt(prompt('Entre com o número de vitórias: ');
+	var empate = parseInt(prompt('Entre com o número de empates: '));
+
+	var pontos = vitorias * 3 + empates;
+
+	mostra('Os pontos do seu time é ' + pontos);
+
+
+
+	if(pontos > 28) {
+		mostra('Seu time está melhor do que o ano passado');
+	}
+
+	if(pontos < 28) {
+		mostra('Seu time está pior do que o ano passado');
+	}
+
+	if(pontos == 28) {
+		mostra('Seu time está igual ao do ano passado');
+	}
+
+	mostra('FIM');
+
+</script>

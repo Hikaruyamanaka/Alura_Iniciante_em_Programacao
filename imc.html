@@ -1,0 +1,81 @@
+<meta charset="UTF-8">
+
+<script>
+
+    // Programa feito conforme o professor ia fazendo em aula, e para não apagar o código eu fui comentando.
+
+function pulaLinha() {
+
+    document.write("<br><br>");
+}
+
+function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+
+    // var pesoHikaru = 81;
+    // var alturaHikaru = 1.74;
+
+
+    // mostra('O imc do Hikaru é ' + imcHikaru);
+
+    // var pesoAmigo = 68;
+    // var alturaAmigo = 1.72;
+
+    // mostra('O imc do meu amigo é '+ imcAmigo);
+
+
+    // function calculaImc(altura, peso) {
+        
+    //     var imc = peso / (altura * altura);
+    //     mostra('O imc calculado é ' + imc);
+    // }
+
+    // calculaImc(1.74, 82);
+    // calculaImc(1.72, 68);
+
+
+    function calculaImc(altura, peso) {
+        
+        return peso / (altura * altura);
+        
+    }
+
+    // Uma das formas:
+    // var imcHikaru = calculaImc(1.74, 82);
+    // var imcAmigo = calculaImc(1.72, 68);
+
+    // mostra(imcHikaru);
+    // mostra(imcAmigo);
+
+    //Outra forma:
+    // var totalImc = calculaImc(1.71, 73) + calculaImc  
+
+
+    // prompt é uma função que retorna um valor (é a primeira forma que aprendemos para capturar a entrada do usuário.)
+    var nome = prompt('Informe o seu nome')
+    var alturaInformada = prompt(nome + ', nforme a sua altura: ');
+    var pesoInformado = prompt(nome + ', informe o seu peso: ');
+
+    var imc = calculaImc(alturaInformada, pesoInformado);
+
+    mostra(nome + ', o seu IMC é ' + imc);
+
+    // Utilizando condição 'if'
+    if(imc < 18.5) {
+        mostra('Você está abaixo do recomendado');
+    }
+
+
+    if(imc > 35) {
+        mostra('Você está acima do recomendado');
+    }
+
+    if(imc >= 18.5 && imc <= 35)
+        mostra('Seu IMC está excelente');
+    }
+
+
+
+</script>

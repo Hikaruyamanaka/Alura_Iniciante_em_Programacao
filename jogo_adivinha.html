@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+
+<script>
+
+    // Programa feito conforme o professor ia fazendo em aula, e para não apagar o código eu fui comentando.
+
+function pulaLinha() {
+
+    document.write("<br><br>");
+}
+
+function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+
+}
+
+var numeroPensado = Math.round(Math.random() * 10);
+
+//console.log(numeroPensado) // ele exibe a resposta, função, parametro, no console do navegador antes mesmo de inserir ou dar enter na resposta. Facilitando a visão dos testes.
+
+var tentativas = 1;
+while (tentativas <= 3) {
+    var chute = parseInt(prompt('Digite seu chute!'));
+
+    if(chute == numeroPensado) {
+        mostra('Você ACERTOU! O número pensado era ' + numeroPensado);
+        // tentativas = 4; funciona como o break
+        break;
+
+    } else {
+
+        mostra('Você ERROU!');
+    }
+    
+    tentativas++;
+}
+
+mostra('FIM')
+
+</script>
